@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Xanh+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Kolker+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,300&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: black;
+}
+header{
+   min-height: 130px;
+    height: auto;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+}
+.yan{
+    display: flex;
+    align-items: center;
+    position: relative;
+      right: 130px;
+}
+h4{
+    color: white;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Kolker Brush', cursive;
+    font-size: 25px;
+    cursor: pointer;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+ul > li{
+    margin-left: 15px;
+}
+ul > li > a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.logo{
+    height: 110px;
+    width: 75px;
+}
+.logo:hover{
+    height: 114px;
+    width: 78px;
+}
+header > ul > li > a:hover{
+   border-bottom: 1px solid white;
+   border-top: 1px solid white;
+   padding-top: 5px;
+   padding-bottom: 5px;
+
+}
+/*main bölümü */
+main{
+    height: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 30px;
+}
+h3{
+    color: white;
+    font-family: Dancing Script;
+    font-size: 25px;
+    cursor: pointer;
+   padding-top: 20px;
+   
+}
+main > .resim{
+    height: 500px;
+    width: 450px;
+    cursor: pointer;
+    position: relative;
+   
+}
+h3:hover{
+    font-size: 28px;
+}
+.resim:hover{
+    height: 510px;
+    width: 460px;
+}
+h4:hover{
+   font-size: 28px;
+}
+
